@@ -205,6 +205,7 @@ document.addEventListener("DOMContentLoaded", function () {
       el.querySelector('.drawer-content').classList.remove('translate-x-full');
     }
   };
+
   window.closeDrawer = function(id) {
     const el = document.getElementById(id);
     if (el) {
@@ -214,5 +215,15 @@ document.addEventListener("DOMContentLoaded", function () {
       }, 300);
     }
   };
+
+  // ✅ Add outside click to close drawer
+  document.querySelectorAll('.drawer-overlay').forEach(overlay => {
+    overlay.addEventListener('click', function () {
+      const id = overlay.getAttribute('data-drawer-id');
+      if (id) {
+        closeDrawer(id);
+      }
+    });
+  });
 });
 </script>
