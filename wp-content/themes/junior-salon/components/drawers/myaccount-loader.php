@@ -12,7 +12,7 @@ ob_start();
 
 <div class="grid grid-cols-2 gap-3 text-center text-sm font-medium">
   <a href="<?php echo esc_url(wc_get_account_endpoint_url('orders')); ?>" class="bg-gray-50 p-4 text-black no-underline rounded hover:bg-gray-100 transition flex flex-col items-center gap-2">
-    <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/images/icons/orders.svg'); ?>" alt="Orders" class="w-7 h-7">
+    <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/images/icons/morders.svg'); ?>" alt="Orders" class="w-7 h-7">
     My orders
   </a>
   <a href="<?php echo esc_url(wc_get_account_endpoint_url('wishlist')); ?>" class="bg-gray-50 p-4 text-black no-underline rounded hover:bg-gray-100 transition flex flex-col items-center gap-2">
