@@ -1,0 +1,9 @@
+05-17-2025 @ 10:48:43 - ---[ New import started at 2025-05-17 10:48:43 ] PHP Memory: 256 MB, WP Memory: 40 MB
+05-17-2025 @ 10:48:43 - Preparing for import.
+05-17-2025 @ 10:48:43 - Row :1 - Parsing item.
+05-17-2025 @ 10:48:43 - Row :1 - Parsing failed. Reason: Importing Product(ID) conflicts with an existing post. ID: 225
+05-17-2025 @ 10:48:43 - Row :2 - Parsing item.
+05-17-2025 @ 10:48:43 - Row :2 - Parsing failed. Reason: Importing Product(ID) conflicts with an existing post. ID: 226
+05-17-2025 @ 10:48:43 - Row :3 - Parsing item.
+05-17-2025 @ 10:48:43 - Row :3 - Parsing failed. Reason: Importing Product(ID) conflicts with an existing post. ID: 227
+05-17-2025 @ 10:48:43 - ---[ Import ended at 2025-05-17 10:48:43]---

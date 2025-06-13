@@ -1,0 +1,2 @@
+<?php
+return ['messages'=>['Customer Care'=>'العناية بالعملاء','Email'=>'البريد الإلكتروني','contact us'=>'اتصل بنا','field-563-label-6c3d3b75d5aef8591632a2060ef08693'=>'العناية بالعملاء','field-564-label-c4f79e15f8c6ed0715a8ea44aebc38d8'=>'واتساب','field-565-label-f7a42fe7211f98ac7a60a285ac3a9e87'=>'الهاتف','field-566-label-ce8ae9da5b7cd6c3df2929543a9af92d'=>'البريد الإلكتروني','group-561-title-94eaf7b43e9ee8089b5da00def9f9915'=>'اتصل بنا','phone'=>'الهاتف','whatsapp'=>'واتساب']];

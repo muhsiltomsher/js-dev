@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['Select'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]],'Color'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]],'Image'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]],'Button'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]],'Radio'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]],'Clear swatches transient'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]],'Choose a color'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]],'Choose an Image'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]]]];

@@ -1,0 +1,14 @@
+05-17-2025 @ 10:43:54 - ---[ New import started at 2025-05-17 10:43:54 ] PHP Memory: 256 MB, WP Memory: 40 MB
+05-17-2025 @ 10:43:54 - Preparing for import.
+05-17-2025 @ 10:43:54 - Row :1 - Parsing item.
+05-17-2025 @ 10:43:54 - Importing as new product ID:219
+05-17-2025 @ 10:43:54 - Row :1 - Processing item.
+05-17-2025 @ 10:43:54 - Found simple product object. ID:219
+05-17-2025 @ 10:43:54 - Setting Featured Image. URL:http://localhost/junior-salon/wp-content/uploads/2025/04/091ca0e42d2352d5ebbd3675f6a4193c22f7e802.png
+05-17-2025 @ 10:43:54 - Attachment ID:145
+05-17-2025 @ 10:43:57 - Row :1 - Product imported successfully.
+05-17-2025 @ 10:43:57 - Row :2 - Parsing item.
+05-17-2025 @ 10:43:57 - Row :2 - Parsing failed. Reason: Importing Product(ID) conflicts with an existing post. ID: 220
+05-17-2025 @ 10:43:57 - Row :3 - Parsing item.
+05-17-2025 @ 10:43:57 - Row :3 - Parsing failed. Reason: Importing Product(ID) conflicts with an existing post. ID: 221
+05-17-2025 @ 10:43:57 - ---[ Import ended at 2025-05-17 10:43:57]---

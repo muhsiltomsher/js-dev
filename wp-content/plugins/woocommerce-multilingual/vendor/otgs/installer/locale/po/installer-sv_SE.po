@@ -1,0 +1,826 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\\nContent-Transfer-Encoding: 8bit"
+"\\nProject-Id-Version:WPML_EXPORT\\nPOT-Creation-Date: \\nPO-Revision-Date: "
+"\\nLast-Translator: \\nLanguage-Team: \\nLanguage:en\\nMIME-Version: 1.0\\n"
+
+msgid " Your current site key (%s) does not match the selected product (%s)."
+msgstr ""
+"Din aktuella platsnyckel (%s) stämmer inte för den valda produkten (%s)."
+
+msgid " to use auto-updates"
+msgstr "för att använda automatiska uppdateringar"
+
+msgid ""
+"%1$s needs to connect to its server to check for new releases and security "
+"updates. Something in the network or security settings is preventing this. "
+"Please allow outgoing communication to %2$s to remove this notice."
+msgstr ""
+"%1$s måste ansluta till sin server för att söka efter nya utgåvor och sä"
+"kerhetsuppdateringar. Något i nätverket eller säkerhetsinställningarna "
+"förhindrar detta. Tillåt utgående kommunikation till %2$s för att slippa "
+"detta meddelande."
+
+msgid "%1$s plugin cannot connect to %2$s"
+msgstr "Insticksprogrammet %1$s kan inte ansluta till %2$s"
+
+msgid "%1$sGet a key for this site%2$s"
+msgstr "%1$sSkaffa en nyckel till denna webbplats%2$s"
+
+msgid ""
+"%s cannot access %s to register. Try again to see if it's a temporary "
+"problem. If the problem continues, make sure that this site has access to "
+"the Internet."
+msgstr ""
+"%s kommer inte åt %s för registrering. Försök igen för att se om "
+"detta är ett tillfälligt problem. Om problemet kvarstår, se till att "
+"webbplatsen har åtkomst till internet."
+
+msgid ""
+"%s cannot access %s to register. Try again to see if it's a temporary "
+"problem. If the problem continues, make sure that this site has access to "
+"the Internet. You can still use the plugin without registration, but you "
+"will not receive automated updates."
+msgstr ""
+"%s kan inte ansluta till %s för registrering. Försök igen för att se om "
+"det är ett tillfälligt problem. Om problemet kvarstår, se till att den hä"
+"r platsen har åtkomst till internet. Du kan fortfarande använda "
+"insticksprogrammet utan registrering men du kommer inte att få automatiska "
+"uppdateringar."
+
+msgid ""
+"%s cannot update because your site's registration is not valid. Please "
+"%sregister %s%s again for this site first."
+msgstr ""
+"%s kan inte uppdateras eftersom din platsregistrering inte är giltig. "
+"%sRegistrera %s%s först igen för den här platsen."
+
+msgid ""
+"%s is registered on this site. You will receive automatic updates until %s"
+msgstr ""
+"%s är registrerad på denna plats. Du kommer att få automatiska "
+"uppdateringar fram till %s"
+
+msgid ""
+"%s is registered on this site. Your Lifetime account gives you updates for "
+"life."
+msgstr ""
+"%s är registrerad på denna plats. Ditt livstidskonto ger dig uppdateringar "
+"livet ut."
+
+msgid ""
+"%s plugin must be registered in order to receive stability and security "
+"updates. Without these updates, the plugin may become incompatible with new "
+"versions of WordPress, which include security patches."
+msgstr ""
+"Insticksprogrammet %s måste vara registrerat för att stabilitets- och sä"
+"kerhetsuppdateringar ska kunna tas emot. Utan dessa uppdateringar kan "
+"insticksprogrammet bli inkompatibelt med WordPress som inkluderar sä"
+"kerhetskorrigeringar."
+
+msgid "%s support on wpml.org"
+msgstr "%s support på wpml.org"
+
+msgid "%s technical support"
+msgstr "%s teknisk support"
+
+msgid ""
+"%s, responsible for receiving automated updates for WPML and Toolset, "
+"requires the following PHP component(s) in order to function:"
+msgstr ""
+"%s, ansvarar för att ta emot uppdateringar för WPML och Toolset och krä"
+"ver följande PHP-komponenter för att fungera:"
+
+msgid "%sRenew here%s."
+msgstr "%sFörnya här%s."
+
+msgid "(embedded)"
+msgstr "(inbäddad)"
+
+msgid "Activate"
+msgstr "Aktivera"
+
+msgid "Activate after download"
+msgstr "Aktivera efter nedladdning"
+
+msgid "Activating %s"
+msgstr "Aktiverar %s"
+
+msgid "Add"
+msgstr "Lägg till"
+
+msgid "All Installer Instances"
+msgstr "Alla instanser av installationsprogram"
+
+msgid "Already bought %s?"
+msgstr "Har redan köpt %s?"
+
+msgid "Already purchased %s?"
+msgstr "Har du redan köpt %s?"
+
+msgid "Are you sure you want to remove this site key?"
+msgstr "Är du säker på att du vill ta bort den här platsnyckeln?"
+
+msgid "Are you sure you want to unregister?"
+msgstr "Är du säker på att du vill avregistrera?"
+
+msgid "Available"
+msgstr "Tillgänglig"
+
+msgid "Beta"
+msgstr "Beta"
+
+msgid "Bought again?"
+msgstr "Köpt igen?"
+
+msgid "Buy %s"
+msgstr "Köp %s"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Check"
+msgstr "Kontrollera"
+
+msgid "Check Now"
+msgstr "Kontrollera nu"
+
+msgid "Check for updates"
+msgstr "Sök efter uppdateringar"
+
+msgid "Check my order status"
+msgstr "Kontrollera min beställningsstatus"
+
+msgid "Click to see individual components options."
+msgstr "Klicka för att visa alternativ för enskilda komponenter."
+
+msgid "Commercial"
+msgstr "Kommersiell"
+
+msgid "Component"
+msgstr "Komponent"
+
+msgid "Connection failed! Please refresh the page and try again. (%s)"
+msgstr "Anslutningen misslyckades! Uppdatera sidan och försök igen. (%s)"
+
+msgid "Current"
+msgstr "Nuvarande"
+
+msgid "Delegated"
+msgstr "Delegerad"
+
+msgid "Development"
+msgstr "Utveckling"
+
+msgid "Dismiss"
+msgstr "Avvisa"
+
+msgid "Do you have an account on %s?"
+msgstr "Har du ett konto på %s?"
+
+msgid "Don't send this information and skip compatibility alerts"
+msgstr "Skicka inte denna information och skippa kompatibilitetsmeddelanden"
+
+msgid "Download"
+msgstr "Ladda ned"
+
+msgid ""
+"Download failed!\\n\\nClick OK to revalidate your subscription or CANCEL to "
+"try again."
+msgstr ""
+"Nedladdning misslyckades!\\n\\nKlicka på OK för att på nytt validera din "
+"prenumeration eller AVBRYT för att försöka igen."
+
+msgid "Download failed!\\n\\nPlease refresh the page and try again."
+msgstr "Nedladdning misslyckades!\\n\\nUppdatera sidan och försök igen."
+
+msgid "Downloading"
+msgstr "Laddar ned"
+
+msgid ""
+"Downloading is not possible because WordPress cannot write into the plugins "
+"folder. %sHow to fix%s."
+msgstr ""
+"Nedladdning är inte möjlig eftersom WordPress inte kan skriva till "
+"insticksprogrammets mapp. %sHur man åtgärdar%s."
+
+msgid ""
+"Downloading is not possible. WordPress cannot create required folders "
+"because of the\\n                                        256 characters "
+"limitation of the current Windows environment."
+msgstr ""
+"Nedladdning är inte möjlig. WordPress kan inte skapa de mappar som krävs "
+"på grund av teckengränsen på\\n                                        "
+"256 tecken i den aktuella Windows-miljön."
+
+msgid "Empty site key!"
+msgstr "Töm platsnyckel!"
+
+msgid "Enter site key"
+msgstr "Ange platsnyckel"
+
+msgid "Enter the site key for %1$s."
+msgstr "Ange platsnyckeln för %1$s."
+
+msgid ""
+"Enter the site key, from your %1$s account, to receive automatic updates for "
+"%2$s."
+msgstr ""
+"Ange platsnyckeln från ditt %1$s-konto för att få automatiska "
+"uppdateringar för %2$s."
+
+msgid "Extend Subscription"
+msgstr "Förläng prenumeration"
+
+msgid "Extend your subscription"
+msgstr "Förläng din prenumeration"
+
+msgid "For retrieving Installer debug information use the %s page."
+msgstr ""
+"Använd sidan %s för att hämta felsökningsinformation för "
+"installationsprogrammet."
+
+msgid "Get a key for this site"
+msgstr "Skaffa en nyckel till denna webbplats"
+
+msgid "Got renewal already?"
+msgstr "Har du redan förnyat?"
+
+msgid "Great! You just need to extend your subscription."
+msgstr "Bra! Du behöver bara förlänga din prenumeration."
+
+msgid "High priority"
+msgstr "Hög prioritet"
+
+msgid "I do not remember"
+msgstr "Kommer inte ihåg"
+
+msgid "I moved the site to this new URL"
+msgstr "Jag flyttade webbplatsen till denna nya URL"
+
+msgid "Ignore and don't ask me again"
+msgstr "Ignorera och fråga inte igen"
+
+msgid ""
+"In order to see the products information, please run the %smanual updates "
+"check%s to initialize the products list or (temporarily) remove the above "
+"code."
+msgstr ""
+"För att kunna se produktinformationen, kör %smanuell uppdateringskontroll"
+"%s för att initiera produktlistan eller (temporärt) ta bort ovanstående "
+"kod."
+
+msgid "Incorrect setup"
+msgstr "Felaktig inställning"
+
+msgid "Individual components"
+msgstr "Enskilda komponenter"
+
+msgid ""
+"Information about new versions is invalid. It may be a temporary "
+"communication problem, please check for updates again."
+msgstr ""
+"Informationen om nya versioner är ogiltig. Detta kan bero på ett tillfä"
+"lligt kommunikationsproblem. Sök efter uppdateringar igen."
+
+msgid ""
+"Information about versions of %s are invalid. It may be a temporary "
+"communication problem, please check for updates again."
+msgstr ""
+"Informationen om versioner av %s är ogiltig. Detta kan bero på ett tillfä"
+"lligt kommunikationsproblem. Sök efter uppdateringar igen."
+
+msgid "Install and activate"
+msgstr "Installera och aktivera"
+
+msgid "Installed"
+msgstr "Installerad"
+
+msgid "Installer"
+msgstr "Installerare"
+
+msgid "Installer Log"
+msgstr "Installationsprogramlogg"
+
+msgid "Installer Support"
+msgstr "Support för installationsprogram"
+
+msgid "Installer System Status"
+msgstr "Systemstatus för installationsprogram"
+
+msgid ""
+"Installer cannot contact our updates server to get information about the "
+"available products and check for new versions. If you are seeing this "
+"message for the first time, you can ignore it, as it may be a temporary "
+"communication problem. If the problem persists and your WordPress admin is "
+"slowing down, you can disable automated version checks. Add the following "
+"line to your wp-config.php file:"
+msgstr ""
+"Installationsprogrammet kan inte kontakta vår uppdateringsserver för "
+"information om tillgängliga produkter och leta efter nya versioner. Om du "
+"ser det här meddelandet för första gången kan du ignorera det då det "
+"kan vara ett temporärt kommunikationsfel. Om problemet kvarstår och din "
+"WordPress-admin blir långsam kan du inaktivera automatisk versionskontroll. "
+"Lägg till följande rad i filen wp-config.php:"
+
+msgid ""
+"Installer cannot display the products information because the automatic "
+"updating for %s was explicitly disabled with the configuration below "
+"(usually in wp-config.php):"
+msgstr ""
+"Installationsprogrammet kan inte visa produktinformationen eftersom "
+"automatisk uppdatering för %s uttryckligen har inaktiverats enligt "
+"konfigurationen nedan (vanligtvis i wp-config.php):"
+
+msgid "Installing %s"
+msgstr "Installerar %s"
+
+msgid "Invalid product"
+msgstr "Ogiltig produkt"
+
+msgid "Invalid request!"
+msgstr "Ogiltig begäran!"
+
+msgid "Invalid site key for the current site."
+msgstr "Ogiltig platsnyckel för den aktuella platsen."
+
+msgid ""
+"Invalid site key for the current site. If the error persists, try to un-"
+"register first and then register again with the same site key."
+msgstr ""
+"Ogiltigt platsnyckel för den aktuella webbplatsen. Om felet kvarstår, fö"
+"rsök att först avregistrera och sen registrera igen med samma platsnyckel."
+
+msgid "Is this still a development site?"
+msgstr "Är detta fortfarande en utvecklingswebbplats?"
+
+msgid ""
+"It looks like this site is a copy of a different site, or it has moved to a "
+"different URL."
+msgstr ""
+"Denna webbplats verkar vara en kopia av en annan webbplats eller har "
+"flyttats till en annan URL."
+
+msgid ""
+"It means you will not receive updates. This can lead to stability and even "
+"security issues."
+msgstr ""
+"Det betyder att du inte får några uppdateringar. Detta kan orsaka problem "
+"med stabilitet och även med säkerheten."
+
+msgid "Learn more"
+msgstr "Läs mer"
+
+msgid "Learn more: %s"
+msgstr "Läs mer: %s"
+
+msgid "Log is empty"
+msgstr "Loggen är tom"
+
+msgid "More details"
+msgstr "Fler uppgifter"
+
+msgid "Need help?"
+msgstr "Behöver du hjälp?"
+
+msgid "Next"
+msgstr "Nästa"
+
+msgid "No"
+msgstr "Nej"
+
+msgid "No repositories defined."
+msgstr "Inga lager definierade."
+
+msgid "No worries. We can check that for you."
+msgstr "Ingen fara. Vi kan kontrollera det åt dig."
+
+msgid "OK. You need to set up renewal for %s."
+msgstr "OK. Du behöver förnya %s."
+
+msgid "OTGS Installer"
+msgstr "OTGS Installer"
+
+msgid "Operation complete!"
+msgstr "Slutfört!"
+
+msgid "Path"
+msgstr "Sökväg"
+
+msgid "Please install %s to allow translating %s."
+msgstr "Installera %s för att möjliggöra översättning av %s."
+
+msgid "Please note that the site key is case sensitive."
+msgstr "Observera att sidans nyckel är skiftlägeskänslig."
+
+msgid ""
+"Please update the URL of currently used site key %1$sin your account%2$s."
+msgstr ""
+"Uppdatera URL för den platsnyckel som används för närvarande %1$si ditt "
+"konto%2$s."
+
+msgid "Please update your site key's URL %1$sin your account%2$s."
+msgstr "Uppdatera platsnycklarnas URL %1$si ditt konto%2$s."
+
+msgid ""
+"Please update your site key's URL and set it as a production site %1$sin "
+"your account%2$s."
+msgstr ""
+"Uppdatera platsnyckelns URL och ange den som produktionsplats %1$si ditt "
+"konto%2$s."
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Privacy and data usage policy"
+msgstr "Integritets- och dataanvändningspolicy"
+
+msgid "Production"
+msgstr "Produktion"
+
+msgid "Register"
+msgstr "Registrera"
+
+msgid "Register %s"
+msgstr "Registrera %s"
+
+msgid "Registered"
+msgstr "Registrerad"
+
+msgid "Release notes"
+msgstr "Versionsinformation"
+
+msgid "Released"
+msgstr "Utgiven"
+
+msgid "Remember my preference."
+msgstr "Kom ihåg mina preferenser."
+
+msgid "Remember to remove %s from this website"
+msgstr "Kom ihåg att ta bort %s från denna webbplats"
+
+msgid "Remember to remove %s from this website."
+msgstr "Kom ihåg att ta bort %s från den här webbplatsen."
+
+msgid "Remember to remove %s from this website. %sCheck my order status%s"
+msgstr ""
+"Kom ihåg att ta bort %s från denna webbplats. %sKontrollera min bestä"
+"llningsstatus%s"
+
+msgid "Remove current site key (%s)"
+msgstr "Ta bort aktuell platsnyckel (%s)"
+
+msgid "Renew %s"
+msgstr "Förnya %s"
+
+msgid "Report to"
+msgstr "Rapportera till"
+
+msgid "Reporting to"
+msgstr "Rapporterar till"
+
+msgid "Request Arguments"
+msgstr "Argument för begäran"
+
+msgid "Request URL"
+msgstr "URL för begäran"
+
+msgid "Required PHP Libraries"
+msgstr "PHP-bibliotek som krävs"
+
+msgid "Response"
+msgstr "Svar"
+
+msgid "Return to the plugins page"
+msgstr "Återgå till sidan för insticksprogram"
+
+msgid "Return to the updates page"
+msgstr "Återgå till uppdateringssidan"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "See the %1$s and let us know in %2$s."
+msgstr "Se %1$s och låt oss veta på %2$s."
+
+msgid ""
+"Send theme and plugins information, in order to get faster support and "
+"compatibility alerts"
+msgstr ""
+"Skicka information om insticksprogram och tema för att få snabbare support "
+"och kompatibilitetsmeddelanden"
+
+msgid "Set Up Renewal For %s"
+msgstr "Förnya %s"
+
+msgid "Site Moved or Copied - %s require your action"
+msgstr ""
+"Webbplatsen är flyttad eller kopierad - %s kräver en åtgärd från dig"
+
+msgid "Site key"
+msgstr "Platsnyckel"
+
+msgid ""
+"Site-key was set by %s, most likely in wp-config.php. Please remove the "
+"constant before attempting to register."
+msgstr ""
+"Platsnyckeln ställdes in av %s, troligast i wp-config.php. Ta bort "
+"konstanten innan du försöker registrera."
+
+msgid ""
+"Site-key was set by %s, most likely in wp-config.php. Please remove the "
+"constant before attempting to unregister."
+msgstr ""
+"Platsnyckeln ställdes in av %s, troligast i wp-config.php. Ta bort "
+"konstanten innan du försöker avregistrera."
+
+msgid ""
+"Something went wrong and we could not install all updates from the %s "
+"channel. Click here to %stry again%s. If the errors persist, please switch "
+"back to the Production channel and contact the %s%s support%s."
+msgstr ""
+"Något gick fel och vi kunde inte installera alla uppdateringar från %s-"
+"kanalen. Klicka här för att %sförsöka igen%s. Om felet kvarstår, växla "
+"tillbaka till Produktionskanalen och kontakta %s%s supporten%s."
+
+msgid "Sorry, you are not allowed to manage Installer for this site."
+msgstr ""
+"Tyvärr. Du är inte behörig att hantera Installer för den här "
+"webbplatsen."
+
+msgid "Subscription is expired."
+msgstr "Prenumerationen har löpt ut."
+
+msgid "Switch"
+msgstr "Växla"
+
+msgid ""
+"The plugins will update to the most recent version in the channel that you "
+"selected."
+msgstr ""
+"Insticksprogrammen kommer att uppdateras till de senaste versionerna i den "
+"kanal som valts."
+
+msgid ""
+"There was a problem switching to the %s channel. You can %sretry%s. If the "
+"problem continues, please %sdownload %s%s and install again manually"
+msgstr ""
+"Ett problem uppstod vid bytet till %s-kanalen. Du kan %sförsöka igen%s. Om "
+"problemet kvarstår, %sladda ned %s%s och installera igen manuellt"
+
+msgid "This is a copy of my original site"
+msgstr "Detta är en kopia av min ursprungliga webbplats"
+
+msgid "This is a development / staging site"
+msgstr "Detta är en utvecklings-/mellanlagringswebbplats"
+
+msgid ""
+"This page lets you install plugins and update existing plugins. To remove "
+"any of these plugins, go to the %splugins%s page and if you have the "
+"permission to remove plugins you should be able to do this."
+msgstr ""
+"Den här sidan låter dig installera insticksprogram och uppdatera "
+"befintliga insticksprogram. För att ta bort insticksprogram, gå till sidan "
+"%sinsticksprogram%s. Om du har rättigheter att ta bort insticksprogram ska "
+"du kunna göra detta."
+
+msgid "This site is registered on %s as a development site."
+msgstr "Denna webbplats är registrerad på %s som en utvecklingswebbplats."
+
+msgid "This site is registered on Toolset.com as a development site."
+msgstr ""
+"Denna webbplats är registrerad på Toolset.com som en utvecklingswebbplats."
+
+msgid "This site is registered on WPML.org as a development site."
+msgstr ""
+"Denna webbplats är registrerad på WPML.org som en utvecklingswebbplats."
+
+msgid ""
+"This site is using %s plugin, which is not paid for. After receiving a "
+"refund, you should remove this plugin from your sites. Using unregistered "
+"plugins means that you are not receiving stability and security updates and "
+"will ultimately lead to problems running the site."
+msgstr ""
+"Den här webbplatsen använder insticksprogrammet %s som inte är betalt. Nä"
+"r du har fått din återbetalning ska du ta bort insticksprogrammet från "
+"dina webbplatser. Att använda oregistrerade insticksprogram innebär att du "
+"inte får stabilitets- och säkerhetsuppdateringar vilket kommer att "
+"resultera i problem med webbplatsen."
+
+msgid ""
+"This site is using the %s plugin, which has not been paid for. After "
+"receiving a refund, you should remove this plugin from your sites. Using "
+"unregistered plugins means you are not receiving stability and security "
+"updates and will ultimately lead to problems running the site."
+msgstr ""
+"Denna webbplats använder insticksprogrammet %s som inte är betald. När du "
+"har fått din återbetalning måste det tas bort från dina webbplatser. Att "
+"använda oregistrerade insticksprogram innebär att du inte får "
+"stabilitets- och säkerhetsuppdateringar och kommer i slutändan leda till "
+"problem på webbplatsen."
+
+msgid "Time"
+msgstr "Tid"
+
+msgid "To install and update %s, please %sregister%s %s for this site."
+msgstr ""
+"För att installera och uppdatera %s, %sregistera dig%s %s för den här "
+"webbplatsen."
+
+msgid ""
+"To select different update channels (beta, development) you must update your "
+"existing products to their most recent stable versions."
+msgstr ""
+"För att välja olika uppdateringskanaler (beta, utveckling) måste du "
+"uppdatera dina befintliga produkter till deras senaste stabila versioner."
+
+msgid "Toolset API server"
+msgstr "Toolset API-server"
+
+msgid "Unknown repository"
+msgstr "Okänt lager"
+
+msgid "Unregister %s from this site"
+msgstr "Avregistrera %s från denna plats"
+
+msgid "Update Plugin"
+msgstr "Uppdatera insticksprogram"
+
+msgid "Updates channel:"
+msgstr "Uppdateringskanal:"
+
+msgid "Updating %s"
+msgstr "Uppdaterar %s"
+
+msgid ""
+"Updating the plugins on your site. Please don't close this page or navigate "
+"away."
+msgstr ""
+"Uppdaterar insticksprogrammen på din webbplats. Stäng inte och lämna inte "
+"den här sidan."
+
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+msgid "Upgrade your account"
+msgstr "Uppgradera ditt konto"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "WPML API server"
+msgstr "WPML API-server"
+
+msgid ""
+"We were not able to copy some plugin files. This is usually due to issues "
+"with permissions for WordPress content or plugins folder."
+msgstr ""
+"Vi kunde inte kopiera vissa insticksprogramfiler. Detta beror oftast på "
+"behörighetsproblem för WordPress-innehåll eller insticksprogrammets mapp."
+
+msgid ""
+"When this site goes live, remember to %1$s from \"development\" to "
+"\"production\" to remove this message. %2$s"
+msgstr ""
+"När denna webbplats publiceras, kom ihåg att %1$s från \"development\" "
+"till \"production\" för att ta bort detta meddelande. %2$s"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid ""
+"You are using a potentially less stable channel for %s. If you didn't enable "
+"this on purpose, you should switch to the 'Production' channel."
+msgstr ""
+"Du använder en potentiellt mindre stabil kanal för %s. Om du inte "
+"aktiverade den avsiktligt bör du växla tillbaka till kanalen 'Produktion'."
+
+msgid "You are using an expired %s account."
+msgstr "Du använder ett förfallet %s-konto."
+
+msgid "You are using an expired account of %s."
+msgstr "Du använder ett förfallet konto för %s."
+
+msgid "You are using an expired account of %s. %sExtend your subscription%s"
+msgstr ""
+"Du använder ett förfallet konto för %s. %sFörläng din prenumeration%s"
+
+msgid ""
+"You are using an invalid site key defined as the constant %s (most likely in "
+"wp-config.php).\\n                                                Please "
+"remove it or use the correct value in order to be able to register correctly."
+msgstr ""
+"Du använder en ogiltig platsnyckel angiven som konstanten %s (sannolikt i "
+"wp-config.php).\\n                                                Ta bort "
+"den eller använd korrekt värde för för att kunna registrera korrekt."
+
+msgid ""
+"You are using an unregistered version of %s and are not receiving "
+"compatibility and security updates"
+msgstr ""
+"Du använder en oregistrerad version av %s och får inte kompatibilitets- "
+"och säkerhetsuppdateringar"
+
+msgid ""
+"You are using an unregistered version of %s and are not receiving "
+"compatibility and security updates. %sRegister now%s"
+msgstr ""
+"Du använder en oregistrerad version av %s och får inte kompatibilitets- "
+"och säkerhetsuppdateringar. %sRegistrera nu%s"
+
+msgid "You are using the complementary %1$s. For the %2$s, %3$s."
+msgstr "Du använder gratisversionen av %1$s. För %2$s, %3$s."
+
+msgid ""
+"You do not have a %1$s account yet. You need to set up a renewal for %2$s."
+msgstr "Du har inget %1$s-konto än. Du måste skapa en förnyelse för %2$s."
+
+msgid "You have a %s account. You just need to extend your subscription."
+msgstr "Du har ett %s-konto. Du behöver bara förlänga din prenumeration."
+
+msgid ""
+"You have an old Types-free subscription, which doesn't provide automatic "
+"updates. %s"
+msgstr ""
+"Du har en gammal prenumeration utan Types som inte har automatiska "
+"uppdateringar. %s"
+
+msgid ""
+"You have an old Types-free subscription, which doesn't provide automatic "
+"updates. %sUpgrade your account%s"
+msgstr ""
+"Du har en gammal prenumeration utan Types, vilken inte harautomatiska "
+"uppdateringar. %sUppgradera ditt konto%s"
+
+msgid ""
+"You will have to renew your subscription in order to continue getting the "
+"updates and support."
+msgstr ""
+"Du måste förnya din prenumeration för att fortsättningsvis få "
+"uppdateringar och support."
+
+msgid "Your Email Address"
+msgstr "Din e-postadress"
+
+msgid ""
+"Your site is using an expired %s account, which means you won't receive "
+"updates. This can lead to stability and security issues."
+msgstr ""
+"Din webbplats använder ett förfallet %s-konto vilket betyder att du inte "
+"kommer att få några uppdateringar. Detta kan leda till problem med "
+"stabilitet och säkerhet."
+
+msgid ""
+"Your subscription appears to no longer be valid. Please try to register "
+"again using a valid site key."
+msgstr ""
+"Din prenumeration verkar inte längre vara giltig. Försök att registrera "
+"igen med en giltig platsnyckel."
+
+msgid "Your subscription expires in %d day."
+msgstr "Din prenumeration löper ut om %d dag."
+
+msgid "Your subscription expires in %d days."
+msgstr "Din prenumeration löper ut om %d dagar."
+
+msgid "activated"
+msgstr "aktiverad"
+
+msgid "activating"
+msgstr "aktiverar"
+
+msgid "communication error details"
+msgstr "information om kommunikationsfel"
+
+msgid "complete set of features"
+msgstr "komplett uppsättning funktioner"
+
+msgid "downloaded"
+msgstr "nedladdad"
+
+msgid "downloading..."
+msgstr "laddar ned..."
+
+msgid "failed!"
+msgstr "misslyckades!"
+
+msgid "installed"
+msgstr "installerad"
+
+msgid "installing..."
+msgstr "installerar..."
+
+msgid "update the site key"
+msgstr "uppdatera platsnyckeln"
+
+msgid "updated"
+msgstr "uppdaterad"
+
+msgid "updating..."
+msgstr "uppdaterar..."
+
+msgid "upgrade to Toolset"
+msgstr "uppgradera till Toolset"
+
+msgid "which theme and plugins you are using."
+msgstr "vilket tema och insticksprogram du använder."

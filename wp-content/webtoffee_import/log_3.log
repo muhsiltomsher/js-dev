@@ -1,0 +1,3 @@
+{"row":1,"message":"Product imported successfully.","status":true,"status_msg":"Success","post_id":219,"post_link":{"edit_url":"http:\/\/localhost\/junior-salon\/wp-admin\/post.php?post=219&amp;action=edit","title":"trendy  suit jacket"}}
+{"row":2,"message":"Importing Product(ID) conflicts with an existing post. ID: 220","status":false,"status_msg":"Failed\/Skipped","post_id":"","post_link":{"title":"Untitled","edit_url":false}}
+{"row":3,"message":"Importing Product(ID) conflicts with an existing post. ID: 221","status":false,"status_msg":"Failed\/Skipped","post_id":"","post_link":{"title":"Untitled","edit_url":false}}

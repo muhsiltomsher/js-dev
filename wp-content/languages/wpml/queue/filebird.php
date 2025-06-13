@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['FileBird Folder'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]],'FileBird Gallery\\4block title'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]],'Display folder images in a rich gallery.\\4block description'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]],'filebird\\4block keyword'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]],'gallery\\4block keyword'=>['urls'=>[],'names'=>[],'cmp'=>['WordPress',3]]]];

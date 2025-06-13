@@ -1,0 +1,2 @@
+<?php
+return ['messages'=>['"I was so impressed with the craftsmanship and the fabric quality. The dress I bought for my daughter was perfect for her birthday. Juniorsalon really knows how to deliver luxury and comfort."'=>'”لقد أعجبت كثيراً بالحرفية وجودة القماش. كان الفستان الذي اشتريته لابنتي مثاليًا لعيد ميلادها. تعرف جونيورزالون حقاً كيف تقدم الفخامة والراحة.“','1ae982725e88c6ab77b339d1787b3fe9'=>'”لقد أعجبت كثيراً بالحرفية وجودة القماش. كان الفستان الذي اشتريته لابنتي مثاليًا لعيد ميلادها. تعرف جونيورزالون حقاً كيف تقدم الفخامة والراحة.“']];

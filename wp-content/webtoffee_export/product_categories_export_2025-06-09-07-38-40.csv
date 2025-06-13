@@ -1,0 +1,24 @@
+term_id,name,slug,description,display_type,parent,thumbnail
+21,Uncategorized,uncategorized,,default,0,
+22,BABY,baby,,default,42,http://localhost/junior-salon/wp-content/uploads/2025/04/27af47dbb962b19199b5aaa0dd5a487376fc4573.png
+23,GIRLS,girls,,default,42,http://localhost/junior-salon/wp-content/uploads/2025/04/48029ae8785dfd7356e9b862439859f0ab5a300b.png
+24,BOYS,boys,,default,42,http://localhost/junior-salon/wp-content/uploads/2025/04/8f5e9f4e114ef408ba4c2f34536a0d6707e37b84.png
+25,SHOES,shoes,,default,42,http://localhost/junior-salon/wp-content/uploads/2025/04/fbe360a2bd63a28007accee5ce3dfa18803cb296.png
+26,SETS,sets,,default,42,http://localhost/junior-salon/wp-content/uploads/2025/04/7f5b8faaf73ab4746f51ff8c62ac180026b0d2a6.png
+27,ACCESSORIES,accessories,,default,42,http://localhost/junior-salon/wp-content/uploads/2025/04/c92c470f8b68076a003dc35ae4e112b3eeb4f061.png
+28,SKIRT,skirt,,default,42,http://localhost/junior-salon/wp-content/uploads/2025/04/a85736fe2208786e6504e5b5fa35ccf1ea39fcf1.png
+29,SWEATSHIRT,sweatshirt,,default,42,http://localhost/junior-salon/wp-content/uploads/2025/04/353e89d0c48b9ee0378b6ed087a2760a3a118f23.png
+30,JEANS,jeans,,default,42,http://localhost/junior-salon/wp-content/uploads/2025/04/5682f5a719e2b58cafc9a979d8e956e799fa94b2.png
+38,AGE,age,"TIME TO DRESS UP 
+shop our stylish collections today ",default,0,http://localhost/junior-salon/wp-content/uploads/2025/04/8e5ec7f50bc11b1b98a7e98dfcb5f4bfc3d1a83f.jpg
+39,"1-9 M",1-9-m,,default,38,http://localhost/junior-salon/wp-content/uploads/2025/04/0bdfa1854ee5fe49a2bce4a76531e1875f934124.png
+40,"3-36 M",3-36-m,,default,38,http://localhost/junior-salon/wp-content/uploads/2025/04/6ca2d08c485cd928a6871fbd3467616c2baedcd1.png
+41,"4-14 Y",4-14-y,,default,38,http://localhost/junior-salon/wp-content/uploads/2025/04/757c95fcb9caa7067df406f1e86d2e01667bd247.png
+42,"Home category",home-category,,default,0,
+43,"SUMMER ESSENTIALS",summer-essentials,"Stay Cool in Style with Our Summer Collection",default,46,http://localhost/junior-salon/wp-content/uploads/2025/04/d580319d3940df57e139a7f811e3ec8544b7f448.png
+44,"FALL INTO FASHION",fall-into-fashion,"Cozy Up with Our Fall Collection",default,46,http://localhost/junior-salon/wp-content/uploads/2025/04/c1e9213c3a7261e667626aed5b3b553eba27daa3.png
+45,"Holiday Magic is Here!",holiday-magic-is-here,"Celebrate the Season in Style",default,46,http://localhost/junior-salon/wp-content/uploads/2025/04/186a1526a1512ffa5efd610cfae7b4f5299c8ed5.png
+46,"Home banner category",home-banner-category,,default,0,
+47,"POPULAR PICKS",popular-picks,,default,0,
+49,"whats hot",whats-hot,,default,0,
+51,"best seller",best-seller,,default,0,

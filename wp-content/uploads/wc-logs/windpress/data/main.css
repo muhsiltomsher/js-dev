@@ -1,0 +1,47 @@
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme) theme(static);
+/* @import "tailwindcss/preflight.css" layer(base); */
+@import "tailwindcss/utilities.css" layer(utilities);
+
+
+@layer base {
+  .text-primary {
+    color: #000000; /* Black color for primary text */
+  }
+  .text-secondary {
+    color: #DEAF27; /* Secondary color (#DEAF27) */
+  }
+}
+
+
+@layer components {
+  /* Example of extending components */
+  .btn-primary {
+    background-color: #000000; /* Black background for the button */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: bold;
+  }
+
+  .btn-secondary {
+    background-color: #DEAF27; /* Secondary background color (#DEAF27) */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: bold;
+  }
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: #000000; /* Black background */
+  }
+
+  .bg-secondary {
+    background-color: #DEAF27; /* Secondary background color */
+  }
+}
+
+

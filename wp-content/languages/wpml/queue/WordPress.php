@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['product-category/%product_cat%'=>['urls'=>[],'names'=>['URL attribute slug: product_cat'],'cmp'=>['WordPress',3]],'Color'=>['urls'=>[],'names'=>['taxonomy singular name: Color'],'cmp'=>['WordPress',3]],'Product Color'=>['urls'=>[],'names'=>['taxonomy general name: Product Color'],'cmp'=>['WordPress',3]],'Size'=>['urls'=>[],'names'=>['taxonomy singular name: Size'],'cmp'=>['WordPress',3]],'Product Size'=>['urls'=>[],'names'=>['taxonomy general name: Product Size'],'cmp'=>['WordPress',3]]]];
