@@ -14,6 +14,50 @@
     body { font-family: 'Instrument Sans', sans-serif !important; }
     a {text-decoration: none; color: black; }
     footer .menu-item a {color: #ababab !important;}
+
+
+
+/* Base container (Mobile First) */
+.container {
+  width: 100% !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+  max-width: 100% !important; /* Full width for extra small screens */
+}
+
+/* Medium Devices (Tablets, ≥768px) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px !important;
+  }
+}
+
+/* Large Devices (Laptops, ≥992px) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px !important;
+  }
+}
+
+/* Extra Large Devices (Desktops, ≥1200px) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+
+/* Extra Extra Large Devices (≥1400px, optional) */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px !important;
+  }
+}
+
+
+
   </style>
 
   <!-- Preload Critical Assets -->
