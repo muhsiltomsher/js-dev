@@ -4,17 +4,13 @@
     <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-black"></div>
 </div>
 
+<div class="flex justify-between">
+
 <!-- FILTER & ORDER Button -->
 <button onclick="openDrawerfilter()"
     class="flex items-center bg-transparent group m-0 text-lg font-semibold px-4 py-2 hover:text-black">
     FILTER & ORDER
 </button>
-
-<!-- Drawer Filter Container -->
-<div id="drawer-container-filter"
-    class="fixed top-0 right-0 w-80 h-full bg-white shadow-lg z-50 p-6 overflow-y-auto hidden transition-transform duration-300 ease-in-out">
-</div>
-<div id="drawer-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden" onclick="closeDrawerfilter()"></div>
 
 <!-- SORT BY Button -->
 <button
@@ -22,6 +18,16 @@
     class="flex items-center bg-transparent group m-0">
     <span class="text-lg">Sort By</span>
 </button>
+
+</div>
+
+<!-- Drawer Filter Container -->
+<div id="drawer-container-filter"
+    class="fixed top-0 right-0 w-80 h-full bg-white shadow-lg z-50 p-6 overflow-y-auto hidden transition-transform duration-300 ease-in-out">
+</div>
+<div id="drawer-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden" onclick="closeDrawerfilter()"></div>
+
+
 
 <!-- Sort Drawer Container -->
 <div id="drawer" class="fixed inset-0 bg-gray-900 bg-opacity-50 z-50 hidden">

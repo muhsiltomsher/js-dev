@@ -12,6 +12,8 @@
     .text-sm { font-size: 0.875rem; }
     .font-semibold { font-weight: 600; }
     body { font-family: 'Instrument Sans', sans-serif !important; }
+    a {text-decoration: none; color: black; }
+    footer .menu-item a {color: #ababab !important;}
   </style>
 
   <!-- Preload Critical Assets -->

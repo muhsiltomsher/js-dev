@@ -30,7 +30,8 @@ include get_template_directory() . '/layouts/header.php'; ?>
 
 <?php
 // Popular picks section after product
-get_template_part('components/products/popular-picks');
+// get_template_part('components/products/popular-picks');
+
 
 // Footer
 include get_template_directory() . '/layouts/footer.php';

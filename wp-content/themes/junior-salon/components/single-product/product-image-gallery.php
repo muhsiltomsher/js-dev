@@ -35,7 +35,7 @@ $all_ids = array_merge([$main_image_id], $attachment_ids);
   </div>
 
   <!-- Main Image -->
-  <div class="w-full border rounded-lg overflow-hidden shadow-sm">
+  <div class="w-full overflow-hidden shadow-sm">
     <div class="woocommerce-product-gallery relative">
       <!-- Skeleton -->
       <div class="absolute inset-0 animate-pulse bg-gray-300 z-0 rounded-lg"></div>
@@ -45,3 +45,24 @@ $all_ids = array_merge([$main_image_id], $attachment_ids);
     </div>
   </div>
 </div>
+<style>
+.woocommerce div.product div.images {
+    margin-bottom: 0 !important;
+}
+
+
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    float: left;
+    width: 100% !important;
+
+}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__image a {
+    outline-offset: 0px !important;
+}
+
+.woocommerce img, .woocommerce-page img{
+      max-width: 100%;
+          height: 100% !important;
+}
+</style>

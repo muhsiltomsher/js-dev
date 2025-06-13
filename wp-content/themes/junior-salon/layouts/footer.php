@@ -142,9 +142,9 @@
     <div class="bg-[#191614]">
         <div class="container m-auto px-5 py-2 md:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <!-- Copyright -->
-            <div class="text-xs py-4 text-left w-full md:w-auto text-white">
+            <div class="text-xs py-4 text-left w-full md:w-auto !text-white">
                 © 2025 Juniorsalon. All rights reserved | Designed by
-                <a href="https://tomsher.com" target="_blank" class="underline">Tomsher</a>
+                <a href="https://tomsher.com" target="_blank" class="underline !text-white">Tomsher</a>
             </div>
 
             <!-- Payment Icons -->

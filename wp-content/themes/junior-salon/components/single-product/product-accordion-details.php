@@ -13,7 +13,9 @@ $sections = [
   'Care instruction' => 'care_instruction',
   'Shipping information' => 'shippinginfo',
 ];
+
 $index = 0;
+$has_data = false;
 ?>
 
 <div class="border-t border-b divide-y divide-gray-200" x-data="{ open: null }">
@@ -22,7 +24,9 @@ $index = 0;
     $id = 'accordion_' . $index;
     $index++;
 
-    if ($content) : ?>
+    if ($content) :
+      $has_data = true;
+  ?>
       <div>
         <button @click="open === '<?php echo $id; ?>' ? open = null : open = '<?php echo $id; ?>'"
                 class="w-full flex justify-between items-center py-4 text-left text-sm font-medium text-gray-900 hover:text-black transition">
@@ -46,16 +50,10 @@ $index = 0;
           <?= wp_kses_post(wpautop($content)) ?>
         </div>
       </div>
-    <?php else : ?>
-      <!-- Skeleton -->
-      <div class="py-4 animate-pulse">
-        <div class="h-5 w-1/4 bg-gray-200 rounded mb-2"></div>
-        <div class="space-y-2">
-          <div class="h-4 w-full bg-gray-100 rounded"></div>
-          <div class="h-4 w-5/6 bg-gray-100 rounded"></div>
-          <div class="h-4 w-2/3 bg-gray-100 rounded"></div>
-        </div>
-      </div>
     <?php endif; ?>
   <?php endforeach; ?>
+
+  <?php if (!$has_data) : ?>
+    <div class="py-6 text-sm text-center text-gray-500">No data found.</div>
+  <?php endif; ?>
 </div>
