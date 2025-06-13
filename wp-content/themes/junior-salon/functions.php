@@ -2423,8 +2423,32 @@ do_action( 'wpml_register_single_string', 'Auth Texts', 'Terms of Service', 'Ter
 do_action( 'wpml_register_single_string', 'Auth Texts', 'MY WISHLIST', 'MY WISHLIST' );
 do_action( 'wpml_register_single_string', 'Auth Texts', 'ITEMS', 'ITEMS' );
 do_action( 'wpml_register_single_string', 'Auth Texts', 'Continue shopping', 'Continue shopping' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'Apply Coupon', 'Apply Coupon' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'Remove', 'Remove' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'SHOPPING CART', 'SHOPPING CART' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'Showing', 'Showing' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'products you added', 'products you added' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'ORDER SUMMARY', 'ORDER SUMMARY' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'Total Price (Item)', 'Total Price (Item)' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'Shipping Tax & Fee', 'Shipping Tax & Fee' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'Grand Total', 'Grand Total' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'JuniorSalon Protects Your Payment/Information', 'JuniorSalon Protects Your Payment/Information' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'Encrypted SSL secure checkout', 'Encrypted SSL secure checkout' );
+do_action( 'wpml_register_single_string', 'Cart Texts', 'We respect your privacy', 'We respect your privacy' );
 
 
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Shopping Bag', 'Shopping Bag' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'You can proceed as a guest. We\'ll only ask for necessary details on the next step.', 'You can proceed as a guest. We\'ll only ask for necessary details on the next step.' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Guest Checkout', 'Guest Checkout' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Your Email Is', 'Your Email Is' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Remember me', 'Remember me' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Forgot password?', 'Forgot password?' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Modify', 'Modify' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Color', 'Color' );
+
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Quantity', 'Quantity' );
+
+do_action( 'wpml_register_single_string', 'Cart Texts', 'Your cart is empty.', 'Your cart is empty.' );
 
 
 }

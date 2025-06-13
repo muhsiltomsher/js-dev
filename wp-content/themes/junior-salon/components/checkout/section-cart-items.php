@@ -10,7 +10,8 @@ $cart_count = WC()->cart->get_cart_contents_count();
 
 <div class="bg-white border border-gray-200 p-6 rounded shadow-sm">
   <h2 class="text-sm font-semibold uppercase tracking-wide text-gray-800 mb-4">
-    Shopping Bag (<?php echo $cart_count; ?> <?php echo _n('item', 'items', $cart_count); ?>)
+    <?php echo apply_filters( 'wpml_translate_single_string', 'Shopping Bag', 'Checkout Texts', 'Shopping Bag' ); ?>
+  (<?php echo $cart_count; ?> <?php echo _n('item', 'items', $cart_count); ?>)
   </h2>
 
   <div class="space-y-6">
@@ -40,9 +41,13 @@ $cart_count = WC()->cart->get_cart_contents_count();
 
       <div class="px-2 flex justify-between py-2 text-[13px] border-t border-gray-300 text-black">
             <div class="flex gap-4">
-              <span class="font-xs">Size: <?php echo esc_html($size); ?></span>
-              <span class="font-xs">Color: <?php echo esc_html($color); ?></span>
-              <span class="font-xs">Qty: <?php echo esc_html($cart_item['quantity']); ?></span>
+              <span class="font-xs"><?php echo icl_translate( 'WordPress', 'Size', 'Size' );
+ ?> 
+ : <?php echo esc_html($size); ?></span>
+              <span class="font-xs"> <?php echo apply_filters( 'wpml_translate_single_string', 'Color', 'Checkout Texts', 'Color' ); ?>
+: <?php echo esc_html($color); ?></span>
+              <span class="font-xs"> <?php echo apply_filters( 'wpml_translate_single_string', 'Quantity', 'Checkout Texts', 'Quantity' ); ?>
+: <?php echo esc_html($cart_item['quantity']); ?></span>
             </div>
           </div>
 
@@ -59,9 +64,15 @@ $cart_count = WC()->cart->get_cart_contents_count();
     <?php
       }
     }
-    if (empty($cart)) {
-      echo '<p class="text-center text-gray-500 py-6 text-sm">Your cart is empty.</p>';
-    }
+   if ( empty( $cart ) ) {
+    echo '<p class="text-center text-gray-500 py-6 text-sm">' . 
+         apply_filters( 'wpml_translate_single_string', 'Your cart is empty.', 'Cart Texts', 'Your cart is empty.' ) . 
+         '</p>';
+}
+
+
+
+
     ?>
   </div>
 </div>

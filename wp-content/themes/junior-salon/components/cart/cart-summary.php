@@ -18,7 +18,8 @@
     <div class="animate-spin rounded-full h-6 w-6 border-2 border-gray-800 border-t-transparent"></div>
   </div>
 
-  <h3 class="text-lg font-semibold mb-4">ORDER SUMMARY</h3>
+  <h3 class="text-lg font-semibold mb-4"><?php echo apply_filters( 'wpml_translate_single_string', 'ORDER SUMMARY', 'Cart Texts', 'ORDER SUMMARY' ); ?>
+ </h3>
   <div class="text-sm space-y-2">
     <?php foreach (WC()->cart->get_cart() as $cart_item):
       $_product = $cart_item['data']; $quantity = $cart_item['quantity'];
@@ -33,17 +34,20 @@
   <hr class="my-3" />
 
   <div class="flex justify-between font-medium">
-    <span>Total Price (Item)</span>
+    <span><?php echo apply_filters( 'wpml_translate_single_string', 'Total Price (Item)', 'Cart Texts', 'Total Price (Item)' ); ?>
+</span>
     <span><?php wc_cart_totals_subtotal_html(); ?></span>
   </div>
 
   <div class="flex justify-between">
-    <span>Shipping Tax & Fee</span>
+    <span><?php echo apply_filters( 'wpml_translate_single_string', 'Shipping Tax & Fee', 'Cart Texts', 'Shipping Tax & Fee' ); ?>
+</span>
     <span><?php wc_cart_totals_shipping_html(); ?></span>
   </div>
 
   <div class="flex justify-between font-bold text-lg mt-2">
-    <span>Grand Total</span>
+    <span><?php echo apply_filters( 'wpml_translate_single_string', 'Grand Total', 'Cart Texts', 'Grand Total' ); ?>
+</span>
     <span><?php wc_cart_totals_order_total_html(); ?></span>
   </div>
 
@@ -52,10 +56,13 @@
   </a>
 
   <div class="bg-gray-50 p-3 rounded text-xs text-gray-600 space-y-1 mt-4">
-    <p><strong>JuniorSalon Protects Your Payment/Information</strong></p>
+    <p><strong><?php echo apply_filters( 'wpml_translate_single_string', 'JuniorSalon Protects Your Payment/Information', 'Cart Texts', 'JuniorSalon Protects Your Payment/Information' ); ?>
+</strong></p>
     <ul class="list-disc pl-4">
-      <li>Encrypted SSL secure checkout</li>
-      <li>We respect your privacy</li>
+      <li><?php echo apply_filters( 'wpml_translate_single_string', 'Encrypted SSL secure checkout', 'Cart Texts', 'Encrypted SSL secure checkout' ); ?>
+</li>
+      <li><?php echo apply_filters( 'wpml_translate_single_string', 'We respect your privacy', 'Cart Texts', 'We respect your privacy' ); ?>
+</li>
     </ul>
     <div class="flex gap-2 mt-2">
       <img src="visa.svg" alt="Visa" class="h-5">

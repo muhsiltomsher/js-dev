@@ -39,7 +39,8 @@
         <div class="flex items-center gap-2">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/coupon-icon.svg"
                  alt="Coupon" class="w-5 h-5" />
-            <h3 class="text-sm font-semibold text-black">Apply Coupon</h3>
+            <h3 class="text-sm font-semibold text-black"><?php echo apply_filters( 'wpml_translate_single_string', 'Apply Coupon', 'Cart Texts', 'Apply Coupon' ); ?>
+ </h3>
         </div>
         <div class="ml-2 text-gray-600 text-sm">
             <template x-if="!open"><i class="fi fi-rr-plus"></i></template>
@@ -64,7 +65,8 @@
             <button type="button"
                     @click="removeCoupon"
                     class="text-xs px-3 py-1 border border-red-500 text-red-600 rounded hover:bg-red-500 hover:text-white transition">
-                Remove
+                <?php echo apply_filters( 'wpml_translate_single_string', 'Remove', 'Cart Texts', 'Remove' ); ?>
+
             </button>
         </div>
 
