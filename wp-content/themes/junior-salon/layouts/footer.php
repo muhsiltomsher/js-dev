@@ -168,38 +168,51 @@
 
 
 
-
-
-
+<!-- Wishlist Label Override Script -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const overrideLabels = () => {
-        document.querySelectorAll('.yith-wcwl-add-to-wishlist-button__label').forEach(label => {
-            const current = label.textContent.trim().toLowerCase();
-            if (current === 'add to wishlist') {
-                label.textContent = 'Move to Wishlist';
-            } else if (current === 'product added!') {
-                label.textContent = 'Added to Wishlist';
-            } else if (current === 'browse wishlist') {
-                label.textContent = 'Already in Wishlist';
-            }
-        });
-    };
-
-    // Initial override
-    overrideLabels();
-
-    // Observe future changes
-    const observer = new MutationObserver(overrideLabels);
-    observer.observe(document.body, {
-        childList: true,
-        subtree: true
+document.addEventListener('DOMContentLoaded', function () {
+  const overrideLabels = () => {
+    document.querySelectorAll('.yith-wcwl-add-to-wishlist-button__label').forEach(label => {
+      const current = label.textContent.trim().toLowerCase();
+      if (current === 'add to wishlist') {
+        label.textContent = 'Move to Wishlist';
+      } else if (current === 'product added!') {
+        label.textContent = 'Added to Wishlist';
+      } else if (current === 'browse wishlist') {
+        label.textContent = 'Already in Wishlist';
+      }
     });
+  };
+  overrideLabels();
+  const observer = new MutationObserver(overrideLabels);
+  observer.observe(document.body, { childList: true, subtree: true });
 });
 </script>
+<!-- ✅ Load Drawer Markup -->
+<?php get_template_part('components/drawers/myaccount-loader'); ?>
+<?php get_template_part('components/drawers/search'); ?>
 
-
+<!-- WordPress Footer Hook -->
 <?php wp_footer(); ?>
 
-
-<?php echo '<!-- Page generated in ' . round(microtime(true) - $start, 3) . ' seconds -->'; ?>
+<!-- Drawer JS -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  window.openDrawer = function(id) {
+    const el = document.getElementById(id);
+    if (el) {
+      el.classList.remove('hidden');
+      el.querySelector('.drawer-content').classList.remove('translate-x-full');
+    }
+  };
+  window.closeDrawer = function(id) {
+    const el = document.getElementById(id);
+    if (el) {
+      el.querySelector('.drawer-content').classList.add('translate-x-full');
+      setTimeout(() => {
+        el.classList.add('hidden');
+      }, 300);
+    }
+  };
+});
+</script>
