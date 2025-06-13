@@ -40,7 +40,8 @@ $success = 'Password reset successful. <a href="' . esc_url(site_url('/my-accoun
 
 <div class="min-h-screen bg-gray-100 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
     <div class="max-w-md w-full bg-white p-8 rounded shadow">
-        <h2 class="text-center text-2xl font-bold text-gray-800">Set a New Password</h2>
+        <h2 class="text-center text-2xl font-bold text-gray-800"><?php echo apply_filters( 'wpml_translate_single_string', 'Set a New Password', 'Auth Texts', 'Set a New Password' ); ?>
+</h2>
 
         <?php if (!empty($errors)) : ?>
             <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mt-4" id="reset-error">
@@ -62,19 +63,22 @@ $success = 'Password reset successful. <a href="' . esc_url(site_url('/my-accoun
             <input type="hidden" name="key" value="<?php echo esc_attr($key); ?>">
 
             <div>
-                <label class="block text-sm font-medium text-gray-700">New Password</label>
+                <label class="block text-sm font-medium text-gray-700"><?php echo apply_filters( 'wpml_translate_single_string', 'New Password', 'Auth Texts', 'New Password' ); ?>
+ </label>
                 <input type="password" name="new_password" required     class="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" 
 >
             </div>
 
             <div>
-                <label class="block text-sm font-medium text-gray-700">Confirm New Password</label>
+                <label class="block text-sm font-medium text-gray-700"><?php echo apply_filters( 'wpml_translate_single_string', 'Confirm New Password', 'Auth Texts', 'Confirm New Password' ); ?>
+  </label>
                 <input type="password" name="confirm_password" required     class="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" 
 >
             </div>
 
             <button type="submit" class="w-full bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700">
-                Reset Password
+              <?php echo apply_filters( 'wpml_translate_single_string', 'Reset Password', 'Auth Texts', 'Reset Password' ); ?>
+
             </button>
         </form>
         <?php endif; ?>

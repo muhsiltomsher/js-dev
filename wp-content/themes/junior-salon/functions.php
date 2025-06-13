@@ -2398,6 +2398,31 @@ do_action( 'wpml_register_single_string', 'Order Texts', 'Last 6 Months', 'Last 
 do_action( 'wpml_register_single_string', 'Order Texts', 'Last 12 Months', 'Last 12 Months' );
 do_action( 'wpml_register_single_string', 'Order Texts', 'View order details', 'View order details' );
 do_action( 'wpml_register_single_string', 'Order Texts', 'No orders found in this period.', 'No orders found in this period.' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Privacy Policy', 'Privacy Policy' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'CREATE YOUR ACCOUNT', 'CREATE YOUR ACCOUNT' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'First name', 'First name' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Last name', 'Last name' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Email address', 'Email address' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Phone number', 'Phone number' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Password', 'Password' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Confirm password', 'Confirm password' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Create account', 'Create account' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'By creating an account, you’re accepting our', 'By creating an account, you’re accepting our' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Terms & Conditions', 'Terms & Conditions' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'and', 'and' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Already have an account?', 'Already have an account?' );
+do_action( 'wpml_register_single_string', 'Auth Texts', "You're already logged in.", "You're already logged in." );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Go to My Account', 'Go to My Account' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Sign in', 'Sign in' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Set a New Password', 'Set a New Password' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'New Password', 'New Password' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Confirm New Password', 'Confirm New Password' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Reset Password', 'Reset Password' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Return Policy', 'Return Policy' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Terms of Service', 'Terms of Service' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'MY WISHLIST', 'MY WISHLIST' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'ITEMS', 'ITEMS' );
+do_action( 'wpml_register_single_string', 'Auth Texts', 'Continue shopping', 'Continue shopping' );
 
 
 
