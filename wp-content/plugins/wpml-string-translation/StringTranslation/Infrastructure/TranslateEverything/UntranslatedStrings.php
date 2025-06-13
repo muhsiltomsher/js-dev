@@ -67,6 +67,11 @@ class UntranslatedStrings implements UntranslatedElementsInterface {
 	 * }[] For example [ [element_id1, language_code1], [element_id1, language_code2], ... ]
 	 */
 	public function getElementsToProcess( $languages, $type, $queueSize ) {
+	    
+	    if ( empty( $languages ) ) {
+    $languages = [ 'en', 'ar' ];
+}
+	    
 		$languageSelect    = array_map(
 			function ( $languageCode ) {
 				return "SELECT '{$languageCode}' AS code";

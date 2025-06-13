@@ -7,7 +7,7 @@
 
   <!-- Critical Inline Styles -->
   <style>
-    .logo img { max-width: 150px; height: auto; }
+    /* .logo img { max-width: 150px; height: auto; } */
     header.sticky { position: sticky; top: 0; z-index: 50; }
     .text-sm { font-size: 0.875rem; }
     .font-semibold { font-weight: 600; }
