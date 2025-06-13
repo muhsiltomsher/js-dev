@@ -32,8 +32,10 @@ if (is_user_logged_in()) {
 <div class="max-w-4xl mx-auto px-6 py-10 bg-white border border-gray-200 rounded-xl shadow-md">
     <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
         <div>
-            <h1 class="text-lg font-semibold text-gray-900">Order #<?php echo $order->get_order_number(); ?></h1>
-            <p class="text-xs text-gray-500">Placed on: <?php echo wc_format_datetime($order->get_date_created()); ?></p>
+            <h1 class="text-lg font-semibold text-gray-900"><?php echo apply_filters( 'wpml_translate_single_string', 'Order', 'Order Texts', 'Order' ); ?>
+ #<?php echo $order->get_order_number(); ?></h1>
+            <p class="text-xs text-gray-500"><?php echo apply_filters( 'wpml_translate_single_string', 'Placed on', 'Order Texts', 'Placed on' ); ?>
+ : <?php echo wc_format_datetime($order->get_date_created()); ?></p>
         </div>
         <div class="mt-3 sm:mt-0">
             <span class="text-xs font-semibold px-3 py-1 rounded-full
@@ -49,7 +51,8 @@ if (is_user_logged_in()) {
     </div>
 
      <div class="bg-gray-50 p-4 rounded-md mb-6">
-        <h2 class="font-semibold text-sm text-gray-700 mb-3">Items</h2>
+        <h2 class="font-semibold text-sm text-gray-700 mb-3"><?php echo apply_filters( 'wpml_translate_single_string', 'Items', 'Order Texts', 'Items' ); ?>
+</h2>
         <div class="space-y-2">
             <?php foreach ($order->get_items() as $item): 
                 $product = $item->get_product();
@@ -74,7 +77,8 @@ if (is_user_logged_in()) {
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
         <div>
-            <h3 class="font-semibold mb-2 text-gray-800">Billing Address</h3>
+            <h3 class="font-semibold mb-2 text-gray-800"><?php echo apply_filters( 'wpml_translate_single_string', 'Billing Address', 'Order Texts', 'Billing Address' ); ?>
+ </h3>
             <div class="text-gray-600">
                 <?php echo nl2br($order->get_formatted_billing_address()); ?><br>
                 <?php echo esc_html($order->get_billing_email()); ?><br>
@@ -82,7 +86,8 @@ if (is_user_logged_in()) {
             </div>
         </div>
         <div>
-            <h3 class="font-semibold mb-2 text-gray-800">Shipping Address</h3>
+            <h3 class="font-semibold mb-2 text-gray-800"><?php echo apply_filters( 'wpml_translate_single_string', 'Shipping Address', 'Order Texts', 'Shipping Address' ); ?>
+ </h3>
             <div class="text-gray-600">
                 <?php echo nl2br($order->get_formatted_shipping_address()); ?>
             </div>
@@ -90,8 +95,10 @@ if (is_user_logged_in()) {
     </div>
 
     <div class="mt-8 border-t pt-4 text-right">
-        <p class="text-sm text-gray-600 mb-1">Payment Method: <span class="font-medium text-gray-800"><?php echo esc_html($order->get_payment_method_title()); ?></span></p>
-        <p class="text-lg font-bold text-gray-900">Total: <?php echo $order->get_formatted_order_total(); ?></p>
+        <p class="text-sm text-gray-600 mb-1"><?php echo apply_filters( 'wpml_translate_single_string', 'Payment Method', 'Order Texts', 'Payment Method' ); ?>
+ : <span class="font-medium text-gray-800"><?php echo esc_html($order->get_payment_method_title()); ?></span></p>
+        <p class="text-lg font-bold text-gray-900"><?php echo apply_filters( 'wpml_translate_single_string', 'Total', 'Order Texts', 'Total' ); ?>
+: <?php echo $order->get_formatted_order_total(); ?></p>
     </div>
 
     <div class="mt-6 text-right">

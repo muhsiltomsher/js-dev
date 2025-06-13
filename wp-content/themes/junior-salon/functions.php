@@ -2355,5 +2355,52 @@ add_action( 'after_setup_theme', 'my_theme_load_theme_textdomain' );
 
 function register_custom_wpml_strings() {
     do_action( 'wpml_register_single_string', 'Header Texts', 'About us', 'About us' );
+    do_action( 'wpml_register_single_string', 'Header Texts', 'Get in Touch', 'Get in Touch' );
+    do_action( 'wpml_register_single_string', 'Header Texts', 'Have a question or need help? Our team is here to assist you.', 'Have a question or need help? Our team is here to assist you.' );
+    do_action( 'wpml_register_single_string', 'Header Texts', 'Frequently Asked Questions', 'Frequently Asked Questions' );
+    do_action( 'wpml_register_single_string', 'Header Texts', 'Contact Us', 'Contact Us' );
+
+    do_action( 'wpml_register_single_string', 'Header Texts', 'Customer Care', 'Customer Care' );
+    do_action( 'wpml_register_single_string', 'Header Texts', 'WhatsApp', 'WhatsApp' );
+    do_action( 'wpml_register_single_string', 'Header Texts', 'Phone', 'Phone' );
+    do_action( 'wpml_register_single_string', 'Header Texts', 'Email', 'Email' );
+ do_action( 'wpml_register_single_string', 'Header Texts', 'STAY IN TOUCH', 'STAY IN TOUCH' );
+
+do_action( 'wpml_register_single_string', 'Header Texts', 'Reset Your Password', 'Reset Your Password' );
+do_action( 'wpml_register_single_string', 'Header Texts', "Enter your email address and we'll send you a link to reset your password", "Enter your email address and we'll send you a link to reset your password" );
+do_action( 'wpml_register_single_string', 'Header Texts', 'Email address', 'Email address' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'Send Reset Link', 'Send Reset Link' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'Back to Login', 'Back to Login' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'LOGIN TO JUNIORSALON', 'LOGIN TO JUNIORSALON' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'Password', 'Password' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'Incorrect email or password', 'Incorrect email or password' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'Don’t have an account?', 'Don’t have an account?' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'My Account', 'My Account' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'My Orders', 'My Orders' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'My Profile', 'My Profile' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'My Address Book', 'My Address Book' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'Bank Details', 'Bank Details' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'Change Password', 'Change Password' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'Logout', 'Logout' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'Invalid section', 'Invalid section' );
+do_action( 'wpml_register_single_string', 'Header Texts', 'Sign in', 'Sign in' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'Placed on', 'Placed on' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'Order', 'Order' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'Items', 'Items' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'Billing Address', 'Billing Address' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'Shipping Address', 'Shipping Address' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'Payment Method', 'Payment Method' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'Total', 'Total' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'Orders', 'Orders' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'All Orders', 'All Orders' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'Last 1 Month', 'Last 1 Month' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'Last 6 Months', 'Last 6 Months' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'Last 12 Months', 'Last 12 Months' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'View order details', 'View order details' );
+do_action( 'wpml_register_single_string', 'Order Texts', 'No orders found in this period.', 'No orders found in this period.' );
+
+
+
+
 }
 add_action( 'init', 'register_custom_wpml_strings' );

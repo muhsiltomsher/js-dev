@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['My Account'=>['urls'=>[],'names'=>['My Account'],'cmp'=>['WordPress',3]],'My Orders'=>['urls'=>[],'names'=>['My Orders'],'cmp'=>['WordPress',3]],'My Profile'=>['urls'=>[],'names'=>['My Profile'],'cmp'=>['WordPress',3]],'My Address Book'=>['urls'=>[],'names'=>['My Address Book'],'cmp'=>['WordPress',3]],'Bank Details'=>['urls'=>[],'names'=>['Bank Details'],'cmp'=>['WordPress',3]],'Change Password'=>['urls'=>[],'names'=>['Change Password'],'cmp'=>['WordPress',3]],'Logout'=>['urls'=>[],'names'=>['Logout'],'cmp'=>['WordPress',3]]]];

@@ -152,8 +152,12 @@ class UntranslatedStrings implements UntranslatedElementsInterface {
 
 			$batchElements[] = [ $batchId, $languageCode ];
 		}
+		$jobs = [];
+if ( ! empty( $untranslated_strings ) ) {
+   $jobs =  $actions->createNewTranslationJobs( 'en', $untranslated_strings, 'st-batch' );
+}
 
-		$jobs = $actions->createNewTranslationJobs( 'en', $batchElements, 'st-batch' );
+		//$jobs = $actions->createNewTranslationJobs( 'en', $batchElements, 'st-batch' );
 
 		$jobsPerString = [];
 		foreach ( $jobs as $job ) {

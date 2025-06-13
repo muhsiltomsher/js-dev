@@ -33,15 +33,20 @@ $customer_orders = wc_get_orders($args);
 ?>
 
 <div class="max-w-6xl mx-auto px-4 py-10">
-    <h2 class="text-xl font-semibold text-gray-800 mb-6">Orders</h2>
+    <h2 class="text-xl font-semibold text-gray-800 mb-6"><?php echo apply_filters( 'wpml_translate_single_string', 'All Orders', 'Order Texts', 'All Orders' ); ?>
+</h2>
 
     <div class="flex justify-end mb-4">
         <form method="get">
             <select name="range" onchange="this.form.submit()" class="border border-gray-300 px-3 py-2 rounded text-sm">
-           <option value="all" <?php selected($range, 'all'); ?>>All Orders</option>
-        <option value="1" <?php selected($range, '1'); ?>>Last 1 Month</option>
-        <option value="6" <?php selected($range, '6'); ?>>Last 6 Months</option>
-        <option value="12" <?php selected($range, '12'); ?>>Last 12 Months</option>
+           <option value="all" <?php selected($range, 'all'); ?>><?php echo apply_filters( 'wpml_translate_single_string', 'All Orders', 'Order Texts', 'All Orders' ); ?>
+</option>
+        <option value="1" <?php selected($range, '1'); ?>><?php echo apply_filters( 'wpml_translate_single_string', 'Last 1 Month', 'Order Texts', 'Last 1 Month' ); ?>
+</option>
+        <option value="6" <?php selected($range, '6'); ?>><?php echo apply_filters( 'wpml_translate_single_string', 'Last 6 Months', 'Order Texts', 'Last 6 Months' ); ?>
+</option>
+        <option value="12" <?php selected($range, '12'); ?>><?php echo apply_filters( 'wpml_translate_single_string', 'Last 12 Months', 'Order Texts', 'Last 12 Months' ); ?>
+</option>
  
             </select>
         </form>
@@ -66,8 +71,10 @@ $customer_orders = wc_get_orders($args);
                 <div class="border border-gray-200 rounded-md overflow-hidden shadow-sm">
                     <div class="flex justify-between items-center px-4 py-3 border-b bg-gray-50">
                         <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-                            <span class="text-sm font-medium">Order: #<?php echo esc_html($order_number); ?></span>
-                            <span class="text-xs text-gray-500">Placed on: <?php echo esc_html($date); ?></span>
+                            <span class="text-sm font-medium"><?php echo apply_filters( 'wpml_translate_single_string', 'Order', 'Order Texts', 'Order' ); ?>
+: #<?php echo esc_html($order_number); ?></span>
+                            <span class="text-xs text-gray-500"><?php echo apply_filters( 'wpml_translate_single_string', 'Placed on', 'Order Texts', 'Placed on' ); ?>
+ : <?php echo esc_html($date); ?></span>
                         </div>
                         <span class="text-xs font-semibold px-3 py-1 rounded-full <?php echo esc_attr($badge_classes); ?>">
                             <?php echo ucfirst($status); ?>
@@ -88,14 +95,16 @@ $customer_orders = wc_get_orders($args);
                          <a href="<?php echo esc_url(site_url('/order-details') . '?order_id=' . $order->get_id()); ?>"
 
                                class="inline-block px-4 py-1.5 bg-black text-white text-xs uppercase rounded hover:bg-gray-800 transition">
-                                View order details
+                              <?php echo apply_filters( 'wpml_translate_single_string', 'View order details', 'Order Texts', 'View order details' ); ?>
+
                             </a>
                         </div>
                     </div>
                 </div>
             <?php endforeach; ?>
         <?php else : ?>
-            <p class="text-sm text-gray-600">No orders found in this period.</p>
+            <p class="text-sm text-gray-600"><?php echo apply_filters( 'wpml_translate_single_string', 'No orders found in this period.', 'Order Texts', 'No orders found in this period.' ); ?>
+</p>
         <?php endif; ?>
     </div>
 </div>

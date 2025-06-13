@@ -17,10 +17,10 @@ include get_template_directory() . '/layouts/header.php';
     <div class="max-w-md w-full space-y-8 bg-white p-8 rounded-xl shadow-lg">
         <div>
             <h2 class="text-center text-3xl font-bold text-gray-900">
-                Reset Your Password
+<?php echo apply_filters( 'wpml_translate_single_string', 'Reset Your Password', 'Header Texts', 'Reset Your Password' ); ?>
             </h2>
             <p class="mt-2 text-center text-sm text-gray-600">
-                Enter your email address and we'll send you a link to reset your password
+<?php echo apply_filters( 'wpml_translate_single_string', "Enter your email address and we'll send you a link to reset your password", 'Header Texts', "Enter your email address and we'll send you a link to reset your password" ); ?>
             </p>
         </div>
 
@@ -28,7 +28,8 @@ include get_template_directory() . '/layouts/header.php';
 <form class="mt-8 space-y-6" method="post" action="<?php echo admin_url('admin-ajax.php'); ?>" id="ajax-reset-form">
     <div class="rounded-md shadow-sm -space-y-px">
                 <div>
-                    <label for="user_login" class="sr-only">Email address</label>
+                    <label for="user_login" class="sr-only"><?php echo apply_filters( 'wpml_translate_single_string', 'Email address', 'Header Texts', 'Email address' ); ?>
+ </label>
                     <input 
                         id="user_login" 
                         name="user_login" 
@@ -36,7 +37,8 @@ include get_template_directory() . '/layouts/header.php';
                         autocomplete="email" 
                         required 
                         class="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" 
-                        placeholder="Email address"
+                        placeholder="<?php echo apply_filters( 'wpml_translate_single_string', 'Email address', 'Header Texts', 'Email address' ); ?>
+ "
                     >
                 </div>
             </div>
@@ -48,7 +50,7 @@ include get_template_directory() . '/layouts/header.php';
                     value="Reset password"
                     class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
-                    Send Reset Link
+<?php echo apply_filters( 'wpml_translate_single_string', 'Send Reset Link', 'Header Texts', 'Send Reset Link' ); ?>
                 </button>
             </div>
 
@@ -59,7 +61,8 @@ include get_template_directory() . '/layouts/header.php';
         <div class="text-center">
             <a href="<?php echo esc_url(wc_get_page_permalink('myaccount')); ?>" 
                class="font-medium text-indigo-600 hover:text-indigo-500">
-                Back to Login
+             <?php echo apply_filters( 'wpml_translate_single_string', 'Back to Login', 'Header Texts', 'Back to Login' ); ?>
+
             </a>
         </div>
     </div>

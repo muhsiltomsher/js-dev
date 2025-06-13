@@ -15,20 +15,27 @@ include get_template_directory() . '/layouts/header.php';
         <aside class="w-full md:w-1/4 bg-white border p-4 rounded-lg shadow">
             <ul class="space-y-4 text-sm font-medium">
                 <li><a href="?section=dashboard" class="flex items-center gap-2 text-black hover:text-blue-600">
-                    <i class="fas fa-user-circle"></i> My Account</a></li>
+                    <i class="fas fa-user-circle"></i> <?php echo apply_filters( 'wpml_translate_single_string', 'My Account', 'Header Texts', 'My Account' ); ?>
+ </a></li>
                 <li><a href="<?php echo home_url('/orders'); ?>" class="flex items-center gap-2 hover:text-blue-600">
-                    <i class="fas fa-box"></i> My Orders</a></li>
+                    <i class="fas fa-box"></i> <?php echo apply_filters( 'wpml_translate_single_string', 'My Orders', 'Header Texts', 'My Orders' ); ?>
+ </a></li>
                     <li><a href="?section=profile" class="flex items-center gap-2 hover:text-blue-600">
-    <i class="fas fa-id-badge"></i> My Profile</a></li>
+    <i class="fas fa-id-badge"></i> <?php echo apply_filters( 'wpml_translate_single_string', 'My Profile', 'Header Texts', 'My Profile' ); ?>
+ </a></li>
      
                 <li><a href="?section=address" class="flex items-center gap-2 hover:text-blue-600">
-                    <i class="fas fa-map-marker-alt"></i> My Address Book</a></li>
+                    <i class="fas fa-map-marker-alt"></i> <?php echo apply_filters( 'wpml_translate_single_string', 'My Address Book', 'Header Texts', 'My Address Book' ); ?>
+  </a></li>
                 <li><a href="?section=bank-details" class="flex items-center gap-2 hover:text-blue-600">
-                    <i class="fas fa-university"></i> Bank Details</a></li>
+                    <i class="fas fa-university"></i>  <?php echo apply_filters( 'wpml_translate_single_string', 'Bank Details', 'Header Texts', 'Bank Details' ); ?>
+</a></li>
                 <li><a href="?section=change-password" class="flex items-center gap-2 hover:text-blue-600">
-                    <i class="fas fa-lock"></i> Change Password</a></li>
+                    <i class="fas fa-lock"></i> <?php echo apply_filters( 'wpml_translate_single_string', 'Change Password', 'Header Texts', 'Change Password' ); ?>
+ </a></li>
                 <li><a href="<?php echo esc_url(wc_logout_url()); ?>" class="flex items-center gap-2 text-red-500">
-                    <i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                    <i class="fas fa-sign-out-alt"></i> <?php echo apply_filters( 'wpml_translate_single_string', 'Logout', 'Header Texts', 'Logout' ); ?>
+</a></li>
             </ul>
         </aside>
 
