@@ -11,7 +11,7 @@
     header.sticky { position: sticky; top: 0; z-index: 50; }
     .text-sm { font-size: 0.875rem; }
     .font-semibold { font-weight: 600; }
-    body { font-family: 'Instrument Sans', sans-serif; }
+    body { font-family: 'Instrument Sans', sans-serif !important; }
   </style>
 
   <!-- Preload Critical Assets -->
