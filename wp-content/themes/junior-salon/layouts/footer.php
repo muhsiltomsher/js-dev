@@ -19,7 +19,7 @@
                 <source srcset="<?php echo esc_url($logo_url); ?>" type="image/webp">
                 <img src="<?php echo esc_url($logo_url); ?>" 
                      alt="<?php echo esc_attr(get_bloginfo('name')); ?>" 
-                     class="w-auto max-w-[180px] h-auto" 
+                     class="w-auto !max-w-[180px] h-auto" 
                      loading="eager">
               </picture>
               <?php
@@ -144,7 +144,7 @@
             <!-- Copyright -->
             <div class="text-xs py-4 text-left w-full md:w-auto text-white">
                 © 2025 Juniorsalon. All rights reserved | Designed by
-                <a href="https://tomsher.co" target="_blank" class="underline">Tomsher</a>
+                <a href="https://tomsher.com" target="_blank" class="underline">Tomsher</a>
             </div>
 
             <!-- Payment Icons -->
