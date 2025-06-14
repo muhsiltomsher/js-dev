@@ -11,14 +11,16 @@ $has_shipping_fee = $shipping_total !== null && $shipping_total > 0;
 ?>
 
 <div class="bg-white border border-gray-200 p-6 rounded shadow-sm space-y-6">
-  <h2 class="text-sm font-semibold uppercase tracking-wide text-gray-800">Order Summary</h2>
+  <h2 class="text-sm font-semibold uppercase tracking-wide text-gray-800"><?php echo apply_filters( 'wpml_translate_single_string', 'ORDER SUMMARY', 'Cart Texts', 'ORDER SUMMARY' ); ?>
+ </h2>
 
   <!-- Coupon Field -->
   <form class="flex gap-2" method="post" id="apply-coupon-form">
     <input type="text" name="coupon_code" placeholder="Coupon Code" required
       class="border w-full px-3 py-2 text-sm rounded" />
     <button type="submit"
-      class="bg-black text-white px-5 py-2 text-sm font-medium uppercase hover:bg-gray-900">Apply</button>
+      class="bg-black text-white px-5 py-2 text-sm font-medium uppercase hover:bg-gray-900"><?php echo apply_filters( 'wpml_translate_single_string', 'Apply', 'Checkout Texts', 'Apply' ); ?>
+</button>
   </form>
 
   <?php wc_print_notices(); ?>
@@ -30,20 +32,23 @@ $has_shipping_fee = $shipping_total !== null && $shipping_total > 0;
   <!-- Totals -->
   <div class="text-sm text-gray-800 space-y-3">
     <div class="flex justify-between">
-      <span>Subtotal</span>
+      <span><?php echo apply_filters( 'wpml_translate_single_string', 'Subtotal', 'Checkout Texts', 'Subtotal' ); ?>
+</span>
       <span class="subtotal-placeholder"><?php wc_cart_totals_subtotal_html(); ?></span>
     </div>
 
     <?php if ($cart->get_shipping_total() > 0): ?>
     <div class="flex justify-between">
-      <span>Delivery</span>
+      <span><?php echo apply_filters( 'wpml_translate_single_string', 'Delivery', 'Checkout Texts', 'Delivery' ); ?>
+</span>
       <span><?php echo wc_price($cart->get_shipping_total()); ?></span>
     </div>
     <?php endif; ?>
 
     <?php if (WC()->shipping->get_shipping_methods()): ?>
       <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-2 text-sm rounded mt-2">
-        ✅ Your order qualifies for FREE shipping
+        ✅<?php echo apply_filters( 'wpml_translate_single_string', 'Your order qualifies for FREE shipping', 'Checkout Texts', 'Your order qualifies for FREE shipping' ); ?>
+
       </div>
     <?php endif; ?>
 
@@ -52,13 +57,14 @@ $has_shipping_fee = $shipping_total !== null && $shipping_total > 0;
       <span class="total-placeholder"><?php wc_cart_totals_order_total_html(); ?></span>
     </div>
 
-    <p class="text-xs text-gray-500">Duties and taxes included</p>
+    <p class="text-xs text-gray-500"><?php echo apply_filters( 'wpml_translate_single_string', 'Duties and taxes included', 'Checkout Texts', 'Duties and taxes included' ); ?>
+</p>
   </div>
 
   <!-- Checkout Form Submit -->
   <div class="relative">
     <form name="checkout" method="post" class="checkout woocommerce-checkout" action="<?php echo esc_url( wc_get_checkout_url() ); ?>" enctype="multipart/form-data">
-    
+
      <!-- Inside form.checkout before submit button -->
 <div style="display: none;">
   <input type="text" name="billing_first_name">
@@ -99,7 +105,8 @@ $has_shipping_fee = $shipping_total !== null && $shipping_total > 0;
 
       <button type="submit"
         class="w-full bg-black text-white py-3 rounded text-sm font-semibold uppercase hover:bg-gray-900">
-        Place Order
+        <?php echo apply_filters( 'wpml_translate_single_string', 'Place Order', 'Checkout Texts', 'Place Order' ); ?>
+
       </button>
     </form>
   </div>

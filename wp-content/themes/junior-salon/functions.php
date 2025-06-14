@@ -17,10 +17,10 @@ function mytheme_enqueue_scripts() {
 }
 add_action('wp_enqueue_scripts', 'mytheme_enqueue_scripts');
 // Enqueue Tailwind CSS and other styles
-//function junior_salon_enqueue_styles() {
-   // wp_enqueue_style('tailwindcss', get_template_directory_uri() . '/dist/styles.css', [], null);
-//}
-//add_action('wp_enqueue_scripts', 'junior_salon_enqueue_styles');
+function junior_salon_enqueue_styles() {
+    wp_enqueue_style('tailwindcss', get_template_directory_uri() . '/dist/styles.css', [], null);
+}
+add_action('wp_enqueue_scripts', 'junior_salon_enqueue_styles');
 
 add_action('admin_menu', function() {
     add_menu_page(
@@ -2450,6 +2450,19 @@ do_action( 'wpml_register_single_string', 'Checkout Texts', 'Quantity', 'Quantit
 
 do_action( 'wpml_register_single_string', 'Cart Texts', 'Your cart is empty.', 'Your cart is empty.' );
 
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Billing Address', 'Billing Address' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Billing address is same as shipping address', 'Billing address is same as shipping address' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Not logged in.', 'Not logged in.' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Save', 'Save' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Cancel', 'Cancel' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Apply', 'Apply' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Subtotal', 'Subtotal' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Delivery', 'Delivery' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Your order qualifies for FREE shipping', 'Your order qualifies for FREE shipping' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Duties and taxes included', 'Duties and taxes included' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Place Order', 'Place Order' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'Payment Methods', 'Payment Methods' );
+do_action( 'wpml_register_single_string', 'Checkout Texts', 'AED 10 fee applies', 'AED 10 fee applies' );
 
 }
 add_action( 'init', 'register_custom_wpml_strings' );

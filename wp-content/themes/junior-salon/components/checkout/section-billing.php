@@ -23,14 +23,15 @@ $billing_fields = array(
 
 <div class="bg-white border border-gray-200 p-6 rounded shadow-sm">
   <div class="flex justify-between items-center mb-2">
-    <h2 class="text-sm font-semibold uppercase tracking-wide text-gray-800">Billing Address</h2>
+    <h2 class="text-sm font-semibold uppercase tracking-wide text-gray-800"><?php echo apply_filters( 'wpml_translate_single_string', 'Billing Address', 'Checkout Texts', 'Billing Address' ); ?>
+ </h2>
     <button onclick="document.getElementById('billingEditBox').classList.toggle('hidden')" class="text-xs underline text-gray-600 hover:text-black">Edit/Change</button>
   </div>
 
   <hr class="mb-4">
 
   <label class="block mb-4 text-sm">
-    <input type="checkbox" id="sameAsShipping" class="mr-2"> Billing address is same as shipping address
+    <input type="checkbox" id="sameAsShipping" class="mr-2"> <?php echo apply_filters( 'wpml_translate_single_string', 'Billing address is same as shipping address', 'Checkout Texts', 'Billing address is same as shipping address' ); ?>
   </label>
 
   <div id="billing-display" class="text-sm text-gray-800 leading-relaxed">
@@ -41,7 +42,8 @@ $billing_fields = array(
       <?php echo esc_html($billing_fields['country']); ?><br>
       <?php echo esc_html($billing_fields['phone']); ?>
     <?php else: ?>
-      <p class="italic text-gray-500">Not logged in.</p>
+      <p class="italic text-gray-500"><?php echo apply_filters( 'wpml_translate_single_string', 'Not logged in.', 'Checkout Texts', 'Not logged in.' ); ?>
+</p>
     <?php endif; ?>
   </div>
 
@@ -69,8 +71,10 @@ $billing_fields = array(
 <?php endif; ?>
 
     <div class="flex justify-end gap-3 mt-4">
-      <button type="submit" class="bg-blue-600 text-white text-sm px-4 py-2 rounded hover:bg-blue-700">Save</button>
-      <button type="button" onclick="document.getElementById('billingEditBox').classList.add('hidden')" class="text-sm px-4 py-2 border rounded hover:bg-gray-100">Cancel</button>
+      <button type="submit" class="bg-blue-600 text-white text-sm px-4 py-2 rounded hover:bg-blue-700"><?php echo apply_filters( 'wpml_translate_single_string', 'Save', 'Checkout Texts', 'Save' ); ?>
+</button>
+      <button type="button" onclick="document.getElementById('billingEditBox').classList.add('hidden')" class="text-sm px-4 py-2 border rounded hover:bg-gray-100"><?php echo apply_filters( 'wpml_translate_single_string', 'Cancel', 'Checkout Texts', 'Cancel' ); ?>
+</button>
     </div>
   </form>
 </div>

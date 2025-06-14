@@ -10,7 +10,8 @@ $chosen_gateway     = WC()->session->get('chosen_payment_method');
 ?>
 
 <div class="bg-white border border-gray-200 p-6 rounded shadow-sm">
-  <h2 class="text-sm font-semibold uppercase tracking-wide text-gray-800 mb-4">Payment Methods</h2>
+  <h2 class="text-sm font-semibold uppercase tracking-wide text-gray-800 mb-4"><?php echo apply_filters( 'wpml_translate_single_string', 'Payment Methods', 'Checkout Texts', 'Payment Methods' ); ?>
+ </h2>
 
   <form id="payment-methods" class="space-y-4">
     <?php foreach ($available_gateways as $gateway): ?>
@@ -27,7 +28,8 @@ $chosen_gateway     = WC()->session->get('chosen_payment_method');
           <img src="/wp-content/uploads/tabby-logo.svg" alt="Tabby" class="ml-auto h-6">
         <?php endif; ?>
         <?php if ($gateway->id === 'cod'): ?>
-          <span class="ml-auto text-xs text-gray-400">AED 10 fee applies</span>
+          <span class="ml-auto text-xs text-gray-400"><?php echo apply_filters( 'wpml_translate_single_string', 'AED 10 fee applies', 'Checkout Texts', 'AED 10 fee applies' ); ?>
+</span>
         <?php endif; ?>
       </label>
     <?php endforeach; ?>
