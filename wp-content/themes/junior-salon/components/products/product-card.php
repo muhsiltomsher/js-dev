@@ -87,13 +87,17 @@ $attributes = $is_variable ? $product->get_variation_attributes() : [];
 
           <!-- Buttons -->
           <div class="flex gap-2">
-         <button type="button" 
-        class="flex-1 text-xs uppercase px-4 py-1.5 bg-black text-white border border-black hover:bg-transparent hover:text-black transition add-to-cart-btn"
+        
+          <button type="button" 
+        class="flex-1 text-xs uppercase px-2 py-1.5 bg-black text-white border border-black hover:bg-transparent hover:text-black transition add-to-cart-btn"
         data-type="add">Add to Cart</button>
+
             <button type="submit"
                     formaction="<?php echo esc_url(wc_get_checkout_url()); ?>"
-                    class="flex-1 text-xs uppercase px-4 py-1.5 bg-black text-white border border-black hover:bg-transparent hover:text-black transition add-to-cart-btn"
+                    class="flex-1 text-xs uppercase px-2 py-1.5 bg-black text-white border border-black hover:bg-transparent hover:text-black transition add-to-cart-btn"
                     data-type="buy">Buy Now</button>
+
+
           </div>
         </form>
       <?php elseif ($product->is_type('simple')): ?>
@@ -101,12 +105,12 @@ $attributes = $is_variable ? $product->get_variation_attributes() : [];
           <input type="hidden" name="add-to-cart" value="<?php echo esc_attr($product->get_id()); ?>" />
           <input type="hidden" name="quantity" value="1">
           <button type="submit"
-                  class="flex-1 text-xs uppercase px-4 py-1.5 bg-black text-white border border-black hover:bg-transparent hover:text-black transition">
+                  class="flex-1 text-xs uppercase px-2 py-1.5 bg-black text-white border border-black hover:bg-transparent hover:text-black transition">
             Add to Cart
           </button>
           <button type="submit"
                   formaction="<?php echo esc_url(wc_get_checkout_url()); ?>"
-                  class="flex-1 text-xs uppercase px-4 py-1.5 bg-black text-white border border-black hover:bg-transparent hover:text-black transition">
+                  class="flex-1 text-xs uppercase px-2 py-1.5 bg-black text-white border border-black hover:bg-transparent hover:text-black transition">
             Buy Now
           </button>
         </form>

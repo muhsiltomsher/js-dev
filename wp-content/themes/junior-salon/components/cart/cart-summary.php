@@ -51,7 +51,7 @@
     <span><?php wc_cart_totals_order_total_html(); ?></span>
   </div>
 
-  <a href="<?php echo esc_url(wc_get_checkout_url()); ?>" class="mt-6 w-full block text-center bg-black text-black text-sm py-3 rounded">
+  <a href="<?php echo esc_url(wc_get_checkout_url()); ?>" class="mt-6 w-full block text-center bg-black !text-white text-sm py-3 rounded">
     <?php esc_html_e('Checkout', 'woocommerce'); ?>
   </a>
 
