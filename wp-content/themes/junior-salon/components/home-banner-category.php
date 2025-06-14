@@ -56,7 +56,7 @@ if ($parent_banner_cat && !is_wp_error($parent_banner_cat)) {
     }
   </style>
 
-  <section class="pt-[30px] px-[15px]">
+  <section class="pt-[30px] px-[0px]">
     <div 
       class="relative w-full h-auto md:h-[480px] grid grid-cols-1 md:grid-cols-3 text-white text-center uppercase" 
       x-data="{ active: 0 }" 

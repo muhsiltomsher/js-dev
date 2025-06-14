@@ -1,4 +1,4 @@
-<section class="pt-[30px] pb-[50px] px-[15px]">
+<section class="pt-[30px] pb-[50px]">
  <h2 class="text-center text-[15px] uppercase font-normal tracking-widest mb-1">
   <?php echo apply_filters('wpml_translate_single_string', 'Testimonials', 'junior-salon', 'Testimonials'); ?>
 </h2>

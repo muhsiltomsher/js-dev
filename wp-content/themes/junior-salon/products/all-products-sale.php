@@ -22,7 +22,7 @@ $args = array(
 $query = new WP_Query($args);
 ?>
 
-<section class="pt-[30px] px-[15px]">
+<section class="pt-[30px] px-[0px]">
 
 
   <div class="flex items-center justify-between border-b border-yellow-300 pb-2 mb-6">

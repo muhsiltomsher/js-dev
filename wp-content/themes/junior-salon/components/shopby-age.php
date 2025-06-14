@@ -14,7 +14,7 @@ if ($parent_cat && !is_wp_error($parent_cat)) {
 }
 ?>
 
-<section class="pt-[30px] px-[15px]">
+<section class="pt-[30px] px-[0px]">
   <!-- Header -->
 <div class="flex items-center justify-between border-b border-yellow-300 pb-2 mb-4">
   <h2 class="text-base sm:text-lg md:text-xl font-semibold uppercase tracking-wide text-gray-800">

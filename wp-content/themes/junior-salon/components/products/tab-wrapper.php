@@ -24,7 +24,7 @@ if ($current_lang === 'ar') {
 
 ?>
 
-<div class="bg-white pt-[30px] px-[15px]">
+<div class="bg-white pt-[30px] px-[0px]">
   <div class="mx-auto">
 
     <!-- Tabs Header with Arrows -->

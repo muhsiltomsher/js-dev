@@ -12,7 +12,7 @@ $args = array(
 $query = new WP_Query($args);
 ?>
 
-<section class="pt-[30px] px-[15px]">
+<section class="pt-[30px] px-[0px]">
   <div class="flex flex-col sm:flex-row justify-between items-center border-b border-yellow-300 pb-2 mb-6 gap-3">
     <div class="flex items-center gap-6">
       <button onclick="openDrawerfilter()" class="text-sm font-semibold underline underline-offset-4 text-black hover:text-black transition flex items-center gap-2">

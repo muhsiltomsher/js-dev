@@ -28,7 +28,7 @@ $categories_row_1 = array_slice($all_home_categories, 0, 4);
 $categories_row_2 = array_slice($all_home_categories, 4, 5);
 ?>
 
-<div class="mx-auto pt-[30px] px-[15px]">
+<div class="mx-auto pt-[30px] px-[0px]">
     <div class="flex items-center justify-between border-b border-yellow-200 pb-2 mb-6">
          <?php echo apply_filters( 'wpml_translate_single_string', 'Shop by Category', 'junior-salon', 'Shop by Category' ); ?>
 

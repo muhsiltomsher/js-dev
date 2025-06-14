@@ -1,4 +1,4 @@
-<div class="mx-auto pt-[30px] px-[15px]">
+<div class="mx-auto pt-[30px] px-[0px]">
   <div class="flex items-center justify-between border-b border-yellow-200 pb-2 mb-6">
     <h2 class="text-lg sm:text-xl md:text-2xl font-semibold uppercase tracking-wide">
       

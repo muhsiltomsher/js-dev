@@ -24,11 +24,8 @@ include get_template_directory() . '/layouts/header.php';
 </div>
 
 <!-- Popular Picks Section -->
-<div class="container mx-auto px-4 py-10">
-  <div class="bg-white shadow rounded-lg p-6">
-    <h2 class="text-xl font-semibold text-gray-800 mb-6">Popular Picks for You</h2>
+<div class="container mx-auto pb-[30px]">
     <?php get_template_part('components/products/popular-picks'); ?>
-  </div>
 </div>
 
 

@@ -1,4 +1,4 @@
-<div class="lg:col-span-1 border p-6 bg-white rounded-lg shadow-sm" id="cart-totals-wrapper"
+<div class="lg:col-span-1 border p-6 bg-white shadow-sm" id="cart-totals-wrapper"
      x-data="{ loading: false }"
      x-init="
       document.addEventListener('refresh-cart-totals', () => {
@@ -65,9 +65,10 @@
 </li>
     </ul>
     <div class="flex gap-2 mt-2">
-      <img src="visa.svg" alt="Visa" class="h-5">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/payment.png" alt="Payment Icons" class="h-6 w-auto" loading="lazy">
+      <!-- <img src="visa.svg" alt="Visa" class="h-5">
       <img src="mastercard.svg" alt="Mastercard" class="h-5">
-      <img src="paypal.svg" alt="PayPal" class="h-5">
+      <img src="paypal.svg" alt="PayPal" class="h-5"> -->
     </div>
   </div>
 </div>
